@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en" class="">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href=""/>
+        <title></title>
+
+        <!-- css links -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- ----- -->
+    </head>
+
+    <body class="dark:bg-dark-body">
+
+        <div class="max-w-winsize mx-auto shadow-3xl">
+
+            <!-- ============================ -->
+            <!-- = Header = -->
+            <!-- ============================ -->
+            <div class="header bg-white dark:bg-dark-head p-2 bg-grey-head">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="w-30 bg-grey-600 relative">
+                            <div class="dropdown-show border border-solid border-br h-6 rounded flex items-center pl-2 relative after:content-[''] after:absolute after:right-2 after:w-2 after:w-2 after:top-0 after:bottom-0 after:my-auto after:bg-dropb after:bg-no-repeat after:bg-center after:bg-contain dark:bg-dark-tb dark:border-dark-tb dark:after:bg-dropw">
+                                <span class="w-1.5 h-1.5 bg-green block rounded-full mr-2"></span>
+                                <p class="font-medium text-11 text-grey-dark dark:text-white">Available</p>
+                            </div>
+                            <ul class="dropdown-list absolute top-full py-1.5 left-0 w-full bg-grey-drop/80 dark:bg-dark-cts/80 border border-solid border-drb dark:border-dark-brd rounded backdrop-blur-md transition-all hidden">
+                                <li class="px-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-busy block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">Busy</p>
+                                </li>
+                                <li class="px-2 mt-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-away block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">Away</p>
+                                </li>
+                                <li class="px-2 mt-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-acw block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">ACW</p>
+                                </li>
+                                <li class="px-2 mt-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-break block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">Break</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="#"><img src="assets/images/head-logo.svg" alt="" class="w-25 dark:hidden"/><img src="assets/images/head-logo-white.svg" alt="" class="w-25 hidden dark:block"/></a>
+                    </div>
+                    <div class="flex">
+                        <div class="px-1 group">
+                            <button type="button" class="w-btn h-btn rounded flex items-center justify-center bg-white dark:bg-dark-tb dark:border-dark-tb border border-solid border-br group-hover:bg-sublue group-hover:border-sublue">
+                                <img src="assets/images/phone-icon-dark.svg" class="transition-all group-hover:hidden dark:hidden" alt=""/>
+                                <img src="assets/images/phone-icon-white.svg" class="hidden transition-all group-hover:block dark:block" alt=""/>
+                            </button>
+                        </div>
+                        <div class="px-1 group">
+                            <button type="button" class="w-btn h-btn rounded flex items-center justify-center bg-white dark:bg-dark-tb dark:border-dark-tb border border-solid border-br group-hover:bg-sublue group-hover:border-sublue">
+                                <img src="assets/images/sc-icon-dark.svg" class="transition-all group-hover:hidden dark:hidden" alt=""/>
+                                <img src="assets/images/sc-icon-white.svg" class="hidden transition-all group-hover:block dark:block" alt=""/>
+                            </button>
+                        </div>
+                        <div class="px-1 group">
+                            <button type="button" class="w-btn h-btn rounded flex items-center justify-center bg-white dark:bg-dark-tb dark:border-dark-tb border border-solid border-br group-hover:bg-sublue group-hover:border-sublue">
+                                <img src="assets/images/settings-icon-dark.svg" class="transition-all group-hover:hidden dark:hidden" alt=""/>
+                                <img src="assets/images/settings-icon-white.svg" class="hidden transition-all group-hover:block dark:block" alt=""/>
+                            </button>
+                        </div>
+                        <div class="pl-1.5">
+                            <div class="relative">
+                                <button type="button" class="p-0.5">
+                                    <span class="w-0.7 h-0.7 rounded-full bg-grey-dark block dark:bg-white"></span>
+                                    <span class="w-0.7 h-0.7 rounded-full bg-grey-dark block mt-0.5 dark:bg-white"></span>
+                                    <span class="w-0.7 h-0.7 rounded-full bg-grey-dark block mt-0.5 dark:bg-white"></span>
+                                </button>
+                                <ul class="dropdown-list absolute top-full py-1.5 -right-2 w-40 bg-grey-drop/80 rounded backdrop-blur-md transition-all mt-2 before:bottom-full before:right-1.5 before:content-[''] before:w-0 before:h-0 before:absolute before:pointer-events-none before:border-transparent before:border-solid before:border-b-grey-drop/80 before:border-6 hidden dark:bg-dark-cts/80 dark:border-dark-tb before:border-b-dark-cts/80">
+                                    <li class="cursor-pointer dark:hidden">
+                                        <a href="#" class="flex items-center justify-between text-xs text-dark-grey h-8 px-3">Dark Mode <img src="assets/images/dark-mode.svg" class="w-4" alt=""/></a>
+                                    </li>
+                                    <li class="cursor-pointer hidden dark:block">
+                                        <a href="#" class="flex items-center justify-between text-xs text-white h-8 px-3">Light Mode <img src="assets/images/light-mode.svg" class="w-4" alt=""/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================ -->
+            <!-- = Contents = -->
+            <!-- ============================ -->  
+            <div class="header bg-white p-2 bg-white dark:bg-dark-cts">
+                <div class="py-2 px-3 rounded-md bg-green">
+                    <div class="text-white font-medium text-sm mb-2 flex items-center">
+                        <img src="assets/images/connected-icon.svg" alt="" class="w-4 mr-1"/> <span>Connected</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                        <div class="text-white font-semibold text-base">
+                            <span>+1 800-555-12345</span>
+                        </div>
+                        <div class="text-white text-base flex items-center">
+                            <img src="assets/images/clock-icon.svg" alt="" class="w-4 mr-1"/> <span>00:15</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-pad p-4">
+                    <div class="flex items-center justify-between mb-3">
+                        <h2 class="text-grey-dark font-medium text-base dark:text-white">Number pad</h2>
+                        <button type="button" class="w-4 h-4 p-0 flex items-center justify-center"><img src="assets/images/close-icon-dark.svg" alt="" class="w-full dark:hidden"/><img src="assets/images/close-icon-white.svg" alt="" class="w-full hidden dark:block"/></button>
+                    </div>
+                    <div class="mb-2.5">
+                        <div class="w-full max-w-xs h-11 border border-solid border-br rounded flex items-center px-3 mx-auto bg-grey-dial dark:bg-dark-dial dark:border-dark-db">
+                            <div class="country-select relative mr-3 pr-4 after:content-[''] after:absolute after:right-0 after:w-2 after:w-2 after:top-0 after:bottom-0 after:my-auto after:bg-dropb after:bg-no-repeat after:bg-center after:bg-contain dark:after:bg-dropw">
+                                <div class="c-selected rounded overflow-hidden"><img src="assets/images/flag-icon.png" class="w-10" alt=""/></div>
+                                <ul class="absolute top-full left-0 w-full bg-grey-drop/80 border border-solid border-drb mt-1 rounded backdrop-blur-md transition-all hidden dark:bg-dark-cts/80 dark:border-dark-cts/80">
+                                    <li class="p-2"><img src="assets/images/flag-icon.png" class="w-7" alt=""/></li>
+                                    <li class="p-2"><img src="assets/images/flag-icon.png" class="w-7" alt=""/></li>
+                                    <li class="p-2"><img src="assets/images/flag-icon.png" class="w-7" alt=""/></li>
+                                </ul>
+                            </div>
+                            <span class="text-base text-grey-dark block whitespace-nowrap dark:text-white">+1 800-000-98765</span>
+                        </div>
+                    </div>
+                    <div class="dialpad">
+                        <ul class="mx-auto flex items-center justify-center flex-wrap max-w-200">
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">1</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">2</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">abc</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">3</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">def</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">4</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">ghi</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">5</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">jkl</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">6</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">mno</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">7</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">pqrs</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">8</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">tuv</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">9</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">wxyz</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block"><img src="assets/images/star-icon.svg" alt="" class="w-2.5 dark:hidden"/><img src="assets/images/star-icon-white.svg" alt="" class="w-2.5 hidden dark:block"/></span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block">0</span>
+                                    <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">+</span>
+                                </button>
+                            </li>
+                            <li class="p-2.5">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                    <span class="leading-none block"><img src="assets/images/hash-icon.svg" alt="" class="w-3 dark:hidden"/><img src="assets/images/hash-icon-white.svg" alt="" class="w-3 hidden dark:block"/></span>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="flex items-center justify-center mt-2.5 mb-2.5">
+                            <button type="button" class="w-30 h-9 bg-red flex items-center justify-center text-xs font-medium text-white rounded">
+                                <img src="assets/images/call-end-icon.svg" alt="" class="w-5 mr-2"/>
+                                <span class="pt-0.5">End Call</span>
+                            </button>
+                            <button type="button" class="w-30 h-9 bg-green flex items-center justify-center text-xs font-medium text-white rounded ml-7">
+                                <img src="assets/images/connected-icon.svg" alt="" class="w-5 mr-2"/>
+                                <span class="pt-0.5">Call</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================ -->
+            <!-- = Footer = -->
+            <!-- ============================ --> 
+            <div class="bg-grey-ft p-4 flex items-center justify-center rounded-b-xl dark:bg-dark-ft">
+                <a href="#"><img src="assets/images/footer-logo.svg" alt="" class="w-20 dark:hidden"/><img src="assets/images/footer-logo-white.svg" alt="" class="w-20 hidden dark:block"/></a>
+            </div>
+
+        </div>
+
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            } else {
+                document.documentElement.classList.remove('dark')
+            }
+
+            // Whenever the user explicitly chooses light mode
+            localStorage.theme = 'light'
+
+            // Whenever the user explicitly chooses dark mode
+            localStorage.theme = 'dark'
+
+            // Whenever the user explicitly chooses to respect the OS preference
+            localStorage.removeItem('theme')
+        </script>
+
+    </body>
+
+</html>
