@@ -15,7 +15,7 @@
 
     <body class="dark:bg-dark-body">
 
-        <div class="max-w-winsize mx-auto shadow-3xl">
+        <div class="max-w-winsize h-590 flex flex-col bg-white dark:bg-dark-cts mx-auto shadow-3xl rounded-b-xl">
 
             <!-- ============================ -->
             <!-- = Header = -->
@@ -28,7 +28,7 @@
                                 <span class="w-1.5 h-1.5 bg-green block rounded-full mr-2"></span>
                                 <p class="font-medium text-11 text-grey-dark dark:text-white">Available</p>
                             </div>
-                            <ul class="dropdown-list absolute top-full py-1.5 left-0 w-full bg-grey-drop/80 dark:bg-dark-cts/80 border border-solid border-drb dark:border-dark-brd rounded backdrop-blur-md transition-all hidden">
+                            <ul class="dropdown-list absolute top-full py-1.5 left-0 w-full bg-grey-drop/80 dark:bg-dark-cts/80 border border-solid border-drb dark:border-dark-db rounded backdrop-blur-md transition-all hidden">
                                 <li class="px-2 flex items-center cursor-pointer">
                                     <span class="w-1.5 h-1.5 bg-busy block rounded-full mr-2"></span>
                                     <p class="font-medium text-11 text-grey-dark dark:text-white">Busy</p>
@@ -94,7 +94,7 @@
             <!-- ============================ -->
             <!-- = Contents = -->
             <!-- ============================ -->  
-            <div class="header bg-white p-2 bg-white dark:bg-dark-cts">
+            <div class="relative p-2 h-full flex flex-col">
                 <div class="py-2 px-3 rounded-md bg-green">
                     <div class="text-white font-medium text-sm mb-2 flex items-center">
                         <img src="assets/images/connected-icon.svg" alt="" class="w-4 mr-1"/> <span>Connected</span>
@@ -129,71 +129,71 @@
                     <div class="dialpad">
                         <ul class="mx-auto flex items-center justify-center flex-wrap max-w-200">
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">1</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">2</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">abc</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">3</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">def</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">4</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">ghi</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">5</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">jkl</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">6</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">mno</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">7</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">pqrs</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">8</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">tuv</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">9</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">wxyz</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block"><img src="assets/images/star-icon.svg" alt="" class="w-2.5 dark:hidden"/><img src="assets/images/star-icon-white.svg" alt="" class="w-2.5 hidden dark:block"/></span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block">0</span>
                                     <span class="text-xsm text-grey-sub dark:text-white text-center absolute bottom-1 left-0 right-0 leading-none">+</span>
                                 </button>
                             </li>
                             <li class="p-2.5">
-                                <button type="button" class="w-11 h-11 rounded border border-solid border-brd flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                                <button type="button" class="w-11 h-11 rounded border border-solid border-db flex items-center justify-center text-lg font-medium text-grey-dark relative pb-3 pt-1 bg-grey-dial dark:bg-dark-dial dark:border-dark-db dark:text-white">
                                     <span class="leading-none block"><img src="assets/images/hash-icon.svg" alt="" class="w-3 dark:hidden"/><img src="assets/images/hash-icon-white.svg" alt="" class="w-3 hidden dark:block"/></span>
                                 </button>
                             </li>
@@ -226,7 +226,7 @@
             if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
                 document.documentElement.classList.add('dark')
             } else {
-                document.documentElement.classList.remove('dark')
+                //document.documentElement.classList.remove('dark')
             }
 
             // Whenever the user explicitly chooses light mode

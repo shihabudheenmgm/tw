@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" class="">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href=""/>
+        <title></title>
+
+        <!-- css links -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- ----- -->
+    </head>
+
+    <body class="dark:bg-dark-body">
+
+        <div class="max-w-winsize h-590 flex flex-col bg-white dark:bg-dark-cts mx-auto shadow-3xl rounded-b-xl">
+
+            <!-- ============================ -->
+            <!-- = Contents = -->
+            <!-- ============================ -->  
+            <div class="bg-white p-2 bg-white dark:bg-dark-cts">
+                <div class="py-12 px-4 flex items-center justify-center">
+                    <a href="#"><img src="assets/images/head-logo.svg" alt="" class="dark:hidden"/><img src="assets/images/head-logo-white.svg" alt="" class="hidden dark:block"/></a>
+                </div>
+                <div class="number-pad p-4">
+                    <div class="block mb-8 text-center">
+                        <h2 class="text-grey-dark font-medium text-21 dark:text-white uppercase">Login</h2>
+                        <p class="text-grey-sub text-sm dark:text-white">Login to your account to continue</p>
+                    </div>
+                    <form>
+                        <div class="flex flex-col max-w-413 mx-auto">
+                            <div class="mb-5 relative">
+                                <span class="absolute inset-y-0 left-4 my-auto h-4/7"><img src="assets/images/login-user-icon.svg" class="h-4/7 dark:hidden" alt=""/><img src="assets/images/login-user-icon-w.svg" class="h-4/7 hidden dark:block" alt=""/></span>
+                                <input type="text" class="border border-solid border-grey-br rounded-5 block w-full h-11 text-xs placeholder:text-grey-sub text-grey-sub dark:text-white dark:placeholder:text-white p-2 pl-11 outline-0 focus:border-sublue dark:border-dark-db dark:bg-dark-dial" placeholder="Username"/>
+                            </div>
+                            <div class="mb-4 relative">
+                                <span class="absolute inset-y-0 left-4 my-auto h-4/7"><img src="assets/images/login-lock-icon.svg" class="h-4/7 dark:hidden" alt=""/><img src="assets/images/login-lock-icon-w.svg" class="h-4/7 hidden dark:block" alt=""/></span>
+                                <input type="text" class="border border-solid border-grey-br rounded-5 block w-full h-11 text-xs placeholder:text-grey-sub text-grey-sub dark:text-white dark:placeholder:text-white p-2 pl-11 outline-0 focus:border-sublue dark:border-dark-db dark:bg-dark-dial" placeholder="Password"/>
+                                <span class="absolute inset-y-0 right-4 my-auto h-3"><img src="assets/images/login-eye.svg" class="h-3 dark:hidden" alt=""/><img src="assets/images/login-eye-nm-w.svg" class="h-3 hidden" alt=""/><img src="assets/images/login-eye-w.svg" class="h-3 hidden dark:block" alt=""/><img src="assets/images/login-eye-nm-w.svg" class="h-3 hidden" alt=""/></span>
+                            </div>
+                            <div class="mb-15 relative">
+                                <div class="flex items-center justify-between">
+                                    <label class="relative flex items-center">
+                                        <input type="checkbox" class="w-4 h-4 border border-solid border-grey-br appearance-none rounded bg-white checked:bg-sublue checked:border-sublue focus:outline-none transition duration-200 checked:bg-tick bg-no-repeat bg-center bg-70 dark:border-dark-db dark:bg-dark-dial dark:checked:border-white" />
+                                        <span class="text-xs text-grey-sub dark:text-white pl-3">Remember me</span>
+                                    </label>
+                                    <a href="#" class="text-xs text-sublue">Forgot password?</a>
+                                </div>
+                            </div>
+                            <div class="mb-10 relative">
+                                <input type="submit" class="bg-sublue w-73 block mx-auto h-34 rounded text-xs font-medium text-white border-0 cursor-pointer hover:bg-bover transition duration-300 ease-in" value="Login"/>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- ============================ -->
+            <!-- = Footer = -->
+            <!-- ============================ --> 
+            <div class="bg-grey-ft p-4 flex items-center justify-center rounded-b-xl dark:bg-dark-ft">
+                <a href="#"><img src="assets/images/footer-logo.svg" alt="" class="w-20 dark:hidden"/><img src="assets/images/footer-logo-white.svg" alt="" class="w-20 hidden dark:block"/></a>
+            </div>
+
+        </div>
+
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            } else {
+                //document.documentElement.classList.remove('dark')
+            }
+
+            // Whenever the user explicitly chooses light mode
+            localStorage.theme = 'light'
+
+            // Whenever the user explicitly chooses dark mode
+            localStorage.theme = 'dark'
+
+            // Whenever the user explicitly chooses to respect the OS preference
+            localStorage.removeItem('theme')
+        </script>
+
+    </body>
+
+</html>

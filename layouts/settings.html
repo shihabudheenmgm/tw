@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href=""/>
+        <title></title>
+
+        <!-- css links -->
+        <link href="assets/css/style.css" rel="stylesheet">
+        <!-- ----- -->
+    </head>
+
+    <body class="dark:bg-dark-body">
+
+        <div class="max-w-winsize h-590 flex flex-col bg-white dark:bg-dark-cts mx-auto shadow-3xl rounded-b-xl">
+
+            <!-- ============================ -->
+            <!-- = Header = -->
+            <!-- ============================ -->
+            <div class="header bg-white dark:bg-dark-head p-2 bg-grey-head">
+                <div class="flex items-center justify-between">
+                    <div>
+                        <div class="w-30 bg-grey-600 relative">
+                            <div class="dropdown-show border border-solid border-br h-6 rounded flex items-center pl-2 relative after:content-[''] after:absolute after:right-2 after:w-2 after:w-2 after:top-0 after:bottom-0 after:my-auto after:bg-dropb after:bg-no-repeat after:bg-center after:bg-contain dark:bg-dark-tb dark:border-dark-tb dark:after:bg-dropw">
+                                <span class="w-1.5 h-1.5 bg-green block rounded-full mr-2"></span>
+                                <p class="font-medium text-11 text-grey-dark dark:text-white">Available</p>
+                            </div>
+                            <ul class="dropdown-list absolute top-full py-1.5 left-0 w-full bg-grey-drop/80 dark:bg-dark-cts/80 border border-solid border-drb dark:border-dark-db rounded backdrop-blur-md transition-all hidden">
+                                <li class="px-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-busy block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">Busy</p>
+                                </li>
+                                <li class="px-2 mt-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-away block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">Away</p>
+                                </li>
+                                <li class="px-2 mt-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-acw block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">ACW</p>
+                                </li>
+                                <li class="px-2 mt-2 flex items-center cursor-pointer">
+                                    <span class="w-1.5 h-1.5 bg-break block rounded-full mr-2"></span>
+                                    <p class="font-medium text-11 text-grey-dark dark:text-white">Break</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="">
+                        <a href="#"><img src="assets/images/head-logo.svg" alt="" class="w-25 dark:hidden"/><img src="assets/images/head-logo-white.svg" alt="" class="w-25 hidden dark:block"/></a>
+                    </div>
+                    <div class="flex">
+                        <div class="px-1 group">
+                            <button type="button" class="w-btn h-btn rounded flex items-center justify-center bg-white dark:bg-dark-tb dark:border-dark-tb border border-solid border-br group-hover:bg-sublue group-hover:border-sublue">
+                                <img src="assets/images/phone-icon-dark.svg" class="transition-all group-hover:hidden dark:hidden" alt=""/>
+                                <img src="assets/images/phone-icon-white.svg" class="hidden transition-all group-hover:block dark:block" alt=""/>
+                            </button>
+                        </div>
+                        <div class="px-1 group">
+                            <button type="button" class="w-btn h-btn rounded flex items-center justify-center bg-white dark:bg-dark-tb dark:border-dark-tb border border-solid border-br group-hover:bg-sublue group-hover:border-sublue">
+                                <img src="assets/images/sc-icon-dark.svg" class="transition-all group-hover:hidden dark:hidden" alt=""/>
+                                <img src="assets/images/sc-icon-white.svg" class="hidden transition-all group-hover:block dark:block" alt=""/>
+                            </button>
+                        </div>
+                        <div class="px-1 group">
+                            <button type="button" class="w-btn h-btn rounded flex items-center justify-center bg-white dark:bg-dark-tb dark:border-dark-tb border border-solid border-br group-hover:bg-sublue group-hover:border-sublue">
+                                <img src="assets/images/settings-icon-dark.svg" class="transition-all group-hover:hidden dark:hidden" alt=""/>
+                                <img src="assets/images/settings-icon-white.svg" class="hidden transition-all group-hover:block dark:block" alt=""/>
+                            </button>
+                        </div>
+                        <div class="pl-1.5">
+                            <div class="relative">
+                                <button type="button" class="p-0.5">
+                                    <span class="w-0.7 h-0.7 rounded-full bg-grey-dark block dark:bg-white"></span>
+                                    <span class="w-0.7 h-0.7 rounded-full bg-grey-dark block mt-0.5 dark:bg-white"></span>
+                                    <span class="w-0.7 h-0.7 rounded-full bg-grey-dark block mt-0.5 dark:bg-white"></span>
+                                </button>
+                                <ul class="dropdown-list absolute top-full py-1.5 -right-2 w-40 bg-grey-drop/80 rounded backdrop-blur-md transition-all mt-2 before:bottom-full before:right-1.5 before:content-[''] before:w-0 before:h-0 before:absolute before:pointer-events-none before:border-transparent before:border-solid before:border-b-grey-drop/80 before:border-6 hidden dark:bg-dark-cts/80 dark:border-dark-tb before:border-b-dark-cts/80">
+                                    <li class="cursor-pointer dark:hidden">
+                                        <a href="#" class="flex items-center justify-between text-xs text-dark-grey h-8 px-3">Dark Mode <img src="assets/images/dark-mode.svg" class="w-4" alt=""/></a>
+                                    </li>
+                                    <li class="cursor-pointer hidden dark:block">
+                                        <a href="#" class="flex items-center justify-between text-xs text-white h-8 px-3">Light Mode <img src="assets/images/light-mode.svg" class="w-4" alt=""/></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================ -->
+            <!-- = Contents = -->
+            <!-- ============================ -->  
+            <div class="relative py-4 px-6 h-full flex flex-col">
+                <div class="relative pb-8 border-b border-solid border-grey-br dark:border-dark-db">
+                    <h2 class="text-grey-dark font-medium text-base dark:text-white mb-6">Settings</h2>
+                    <div class="flex flex-col">
+                        <h5 class="text-grey-dark font-medium text-sm dark:text-white mb-2">Phone type</h5>
+                        <div>
+                            <label class="flex items-center">
+                                <input type="radio" name="ptype" class="w-3.5 h-3.5 border-2 ring-1 ring-grey-dark border-solid border-white appearance-none rounded-full bg-white checked:bg-sublue checked:ring-sublue transition duration-200 ease-in dark:bg-dark-dial checked:dark:bg-sublue dark:border-dark-dial dark:ring-white checked:dark:ring-sublue" checked/>
+                                <span class="text-xs text-grey-sub dark:text-white pl-2 pt-0.5">Softphone</span>
+                            </label>
+                            <label class="flex items-center mt-2">
+                                <input type="radio" name="ptype" class="w-3.5 h-3.5 border-2 ring-1 ring-grey-dark border-solid border-white appearance-none rounded-full bg-white checked:bg-sublue checked:ring-sublue transition duration-200 ease-in dark:bg-dark-dial checked:dark:bg-sublue dark:border-dark-dial dark:ring-white checked:dark:ring-sublue"/>
+                                <span class="text-xs text-grey-sub dark:text-white pl-2 pt-0.5">Desk phone</span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="flex flex-col mt-7">
+                        <h5 class="text-grey-dark font-medium text-sm dark:text-white mb-2">Language</h5>
+                        <div class="dropdown relative">
+                            <button type="button" class="block w-full h-50 bg-grey-dial border-grey-br border border-solid rounded-5 text-left py-2 px-3 text-sm text-grey-dark relative after:absolute after:-top-1 after:bottom-0 after:right-4 after:w-2.5 after:h-2.5 after:rotate-45 after:border after:border-solid after:border-grey-dark after:my-auto after:border-t-0 after:border-l-0 after:pointer-events-none dark:bg-dark-dial dark:border-dark-db dark:text-white dark:after:border-white font-light">
+                                <span>English</span>
+                            </button>
+                            <ul class="droplist absolute top-full py-1.5 left-0 w-full bg-grey-drop/80 dark:bg-dark-cts/80 border border-solid border-drb dark:border-dark-db rounded backdrop-blur-md transition duration-200 ease-in hidden">
+                                <li class="py-1.5 px-3 text-grey-dark dark:text-white font-light text-sm cursor-pointer">English</li>
+                                <li class="py-1.5 px-3 text-grey-dark dark:text-white font-light text-sm cursor-pointer">English</li>
+                                <li class="py-1.5 px-3 text-grey-dark dark:text-white font-light text-sm cursor-pointer">English</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="flex mt-11">
+                        <button type="button" class="w-214 h-34 bg-grey-dial border border-solid border-grey-br flex items-center justify-center text-xs font-medium text-grey-dark rounded-5 mr-2 dark:bg-dark-dial dark:border-dark-db dark:text-white">Cancel</button>
+                        <button type="button" class="w-214 h-34 bg-sublue flex items-center justify-center text-xs font-medium text-white rounded-5 ml-auto">Save</button>
+                    </div>
+                </div>
+                <div class="pt-7 pb-2">
+                    <div class="flex flex-col">
+                        <button type="button" class="w-141 h-34 bg-grey-dial border border-solid border-grey-br flex items-center justify-start text-xs font-medium text-grey-dark rounded-5 pl-3.5 dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                            <img src="assets/images/FileArrowDown.svg" alt="" class="h-3 mr-3 dark:hidden"/>
+                            <img src="assets/images/FileArrowDown-w.svg" alt="" class="h-3 mr-3 hidden dark:block"/>
+                            <span>Download Logs</span>
+                        </button>
+                        <button type="button" class="w-141 h-34 bg-grey-dial border border-solid border-grey-br flex items-center justify-start text-xs font-medium text-grey-dark rounded-5 pl-3.5 mt-5 dark:bg-dark-dial dark:border-dark-db dark:text-white">
+                            <img src="assets/images/SignOut.svg" alt="" class="h-3 mr-3 dark:hidden"/>
+                            <img src="assets/images/SignOut-w.svg" alt="" class="h-3 mr-3 hidden dark:block"/>
+                            <span>Logout</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ============================ -->
+            <!-- = Footer = -->
+            <!-- ============================ --> 
+            <div class="bg-grey-ft p-4 flex items-center justify-center rounded-b-xl dark:bg-dark-ft">
+                <a href="#"><img src="assets/images/footer-logo.svg" alt="" class="w-20 dark:hidden"/><img src="assets/images/footer-logo-white.svg" alt="" class="w-20 hidden dark:block"/></a>
+            </div>
+
+        </div>
+
+        <script>
+            // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+            if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                document.documentElement.classList.add('dark')
+            } else {
+                //document.documentElement.classList.remove('dark')
+            }
+
+            // Whenever the user explicitly chooses light mode
+            localStorage.theme = 'light'
+
+            // Whenever the user explicitly chooses dark mode
+            localStorage.theme = 'dark'
+
+            // Whenever the user explicitly chooses to respect the OS preference
+            localStorage.removeItem('theme')
+        </script>
+
+    </body>
+
+</html>

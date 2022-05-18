@@ -20,6 +20,7 @@ module.exports = {
                     'ft': '#ececec',                    
                 },
                 'sublue': '#1787e0',
+                'bover': '#0368a7',
                 'green': '#039700',
                 'busy': '#C02C2C',
                 'away': '#F1A256',
@@ -31,7 +32,6 @@ module.exports = {
                     'cts': '#171C26',
                     'ft': '#0D1015',
                     'tb': '#283143',
-                    'brd': '#252D3D',
                     'dial': '#141820',
                     'db': '#252D3D',
                 },
@@ -42,10 +42,25 @@ module.exports = {
                 '25': '6.25rem',
                 'btn': '1.438rem',
                 '0.7': '0.188rem',
+                '1/15': '0.938rem',
+                '15': '3.75rem',
+                '11/5': '45px',
+                '4/7': '17px',
+                '4/2': '1.125rem',
+                '73': '73px',
+                '34': '2.125rem',
+                '590': '590px',
+                '6/2': '0.375rem',
+                '7/2': '1.875rem',
+                '131': '8.188rem',
+                '141': '8.813rem',
+                '214': '13.375rem',
+                '50': '3.125rem',
             },
             backgroundImage:{
                 'dropb': "url('../images/drop-dark-icon.svg')",
                 'dropw': "url('../images/drop-white-icon.svg')",
+                'tick': "url('../images/tick.svg')",
             },
             zIndex: {
                 '1': '1',
@@ -56,14 +71,16 @@ module.exports = {
                 '998': '998',
             },
             borderRadius: {
-
+                '5': '5px'
             },
             fontSize: {
                 '11': '0.688rem',
                 'xsm': '0.563rem',
+                '21': '1.313rem',
             },
             maxWidth: {
                 '200': '12.5rem',
+                '413': '25.813rem',
                 'winsize': '505px',
             },
             boxShadow: {
@@ -71,7 +88,13 @@ module.exports = {
             },
             borderWidth:{
                 '6': '6px',
-            }
+                '3': '3px'
+            },
+            backgroundSize: {
+                '50': '50%',
+                '70': '70%',
+                '16': '4rem',
+            },
         },
         fontFamily: {
             'primary': ["'Poppins'"],
